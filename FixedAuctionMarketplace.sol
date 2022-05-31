@@ -6,6 +6,7 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 
 contract FixedAuctionMarketplace is ERC721URIStorage {
+    
     using SafeMath for uint256;
     uint256 public nftPrice = 0.01 ether;
     address payable owner;
